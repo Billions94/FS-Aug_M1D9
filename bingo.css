@@ -4,27 +4,33 @@ body {
     font-family: 'STIX Two Text', serif;
     max-width: 768px;
     margin: 0 auto;
+}
+
+
+#bingo-container {
+    background-color: rgb(199, 188, 188);
+    color:rgb(66, 65, 65);
+    text-align: center;
+    
     
 }
 
-.bingo-container {
- background-color: orange;
- color:black;
- width: 90%;
+.number {
+    font-size: x-large;
+    font-weight: bold;
+    border-style: dotted;
+    border-color: black;
+    display: inline-block;
+    margin: 1%;
+    min-height: 1em;
+    width: 80px;
+    
+}
+
  
 
 
-}
 
-.number {
-display: inline-block;
-width: 10%;
-text-align: center;
-font-size: x-large;
-font-weight: bold;
-border-style: solid;
-border-color: black;
-margin: 3px;
-padding-top: 35px;
-}
+
+
 
