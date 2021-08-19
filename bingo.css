@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 768px;
+    margin: 0 auto;
+}
