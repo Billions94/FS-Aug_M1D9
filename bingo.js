@@ -12,7 +12,7 @@ EXTRA:
  
  
  
- function displayEntireBingo(){
+function displayEntireBingo(){
   // TODO: Display entire 76 cells of Bingo
  let bingoContainer = document.getElementById("bingo-container")
 
@@ -23,26 +23,35 @@ EXTRA:
       newBingoNode.id = bingoNumber
       newBingoNode.classList.add("number")
       bingoContainer.appendChild(newBingoNode)
+      
  }
- }
+}
+
+function randomizeCell(){
+    let randomCell = document
+   
+}
 
 
-// const makeBoard = function (){
 
-//     let bingo = document.getElementById('bingo-container')
+
+
+
+function randomNumber() {
+    let random = Math.floor(Math.random() *100)
+    return random
     
-//         for (let i = 0; i <= 75; i++) {
-//             let create = document.createElement("div")
-//             create.innerHTML = i
-//             create.id = i
-//             bingo.appendChild(create)
-//         }
-// }
+}
 
 
+function changeH1Title() {
+    let changeH1 = document.querySelector("h1")
+    changeH1.innerHTML = "This is a new Bingo Game"
+}
 
 
 
 window.onload = function() {
-    displayEntireBingo() 
+    displayEntireBingo()
+     
 } 
