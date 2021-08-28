@@ -1,34 +1,7 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: 'STIX Two Text', serif;
-    max-width: 768px;
-    margin: 0 auto;
-}
-
-
-#bingo-container {
-    background-color: rgb(199, 188, 188);
-    color:rgb(66, 65, 65);
-    text-align: center;  
-}
-
-.number {
-    font-size: x-large;
-    font-weight: bold;
-    border-style: dotted;
-    border-color: black;
-    display: inline-block;
-    margin: 1%;
-    width: 80px;
-    height: fit-content;
-    cursor: pointer;
-    
-}
-
 h1 {
-    cursor: pointer
-}
+    text-align: center;
+
+  }
 
 
 
